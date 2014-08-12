@@ -1,0 +1,21 @@
+{
+  "name": "MailBot",
+  "version": "0.0.1",
+  "description": "Forward IBM Lotus iNotes's mail to an handsome account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pedroassis",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^1.2",
+    "cheerio": "*",
+    "ng-di": "*",
+    "nodemailer": "^1.1.1",
+    "readline-sync": "^0.4.5",
+    "request-promise": "0.0.4",
+    "simple-spinner": "0.0.1",
+    "socks5-http-client": "*"
+  }
+}

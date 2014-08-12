@@ -1,0 +1,11 @@
+{
+	"baseUrl" : "",
+	"loginAPI" : "",
+	"homepage" : "",
+	"lightMode" : "",
+	"email" : "",
+	"password" : "",
+	"emailSender" : "",
+	"passwordSender" : "",
+	"provider" : ""
+}

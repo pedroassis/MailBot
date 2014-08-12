@@ -18,4 +18,4 @@
   </ul>
 </blockquote>
 
- <span class="comment label label-danger"> If you are going to run it you’ll need to use my forked repo of request-promise which is https://github.com/pedroassis/request-promise. </span>
+ <span class="comment label label-danger"> If you are going to run it you’ll need to use my forked repo of request-promise which is https://github.com/pedroassis/request-promise, and of course some access to iNotes </span>

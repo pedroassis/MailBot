@@ -5,8 +5,6 @@ function MailService(DOMHandler, HTTPUtils, LoginService, Promise, config, Asker
 
 	var nodemailer = require('nodemailer');
 
-	var email = 'pedro@pedroassis.com.br';
-
 	if(!config.passwordSender){
 		config.passwordSender = Asker.question("Whats your password for {0}?".replace("{0}", config.emailSender), {noEchoBack: true});
 	}
@@ -40,8 +38,8 @@ function MailService(DOMHandler, HTTPUtils, LoginService, Promise, config, Asker
 
 	this.send = function sendEmail(emailBody){
 		return new Promise(function(resolve, reject){
-			emailBody.from = email;
-			emailBody.to = email;
+			emailBody.from = config.emailSender;
+			emailBody.to = config.emailSender;
 			transporter.sendMail(emailBody, function(error, info){
 			    if(error){
 			        reject(error);
